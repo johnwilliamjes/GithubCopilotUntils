@@ -1,0 +1,20 @@
+{
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Add emojis to the commit message to make it more expressive and fun"
+        }
+    ],
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+            "text": "Use single quotes for strings.",
+            "file": "guidance/review-guidelines.md"
+        }
+    ],
+    "github.copilot.chat.welcomeMessage": "Hi! I'm your GitHub-focused development assistant. I can help with:\n• Creating and managing GitHub issues\n• Pull request workflows\n• Repository management\n• Git best practices\n• GitHub Actions setup\n\nWhat would you like to work on?",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": false,
+        "markdown": true
+    }
+}
