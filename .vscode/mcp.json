@@ -6,7 +6,10 @@
 				"-y",
 				"@openbnb/mcp-server-airbnb",
 				"--ignore-robots-txt"
-			]
+			],
+			"env": {
+				"NODE_ENV": "production"
+			}
 		}
 	},
 	"inputs": []
